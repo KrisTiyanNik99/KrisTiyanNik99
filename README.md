@@ -1,6 +1,7 @@
 public class Programmer {
 
-public static void main(String[] args){
+public static void main(String[] args) {
+
     // Personal data
     String name = "Kristiyan Nikolov";
     int bornYear = 1999;
@@ -54,4 +55,4 @@ public static void main(String[] args){
         System.out.println("- " + goal);
     }
 }
-## {
+{
