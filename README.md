@@ -1,16 +1,56 @@
-## Hi there 👋
+##public class Programmer {
+public static void main(String[] args){
+    // Personal data
+    String name = "Kristiyan Nikolov";
+    int bornYear = 1999;
+    String residence = "Plovdiv";
 
-<!--
-**KrisTiyanNik99/KrisTiyanNik99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    // Education
+    String[] education = {
+        "SoftUni Java Fundamentals - Grade: 6",
+        "SoftUni Java Advanced - Grade: 6",
+        "Current course: SoftUni Java OOP"
+    };
+    int experienceInYears = 2;
 
-Here are some ideas to get you started:
+    // Technical skills
+    String[] technicalSkills = {
+        "Java", "Spring Boot", "Swing", "JavaFX", "Maven",
+        "HTTP Requests", "Python", "Tkinter", "JavaScript"
+    };
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    // Tools
+    String[] tools = {
+        "IntelliJ IDEA","VSCode","Blender","SceneBuilder"
+    };
+
+    // Future Goals
+    String[] futureGoals = {
+        "Gain experience working with databases, mobile applications and and build on my previous knowledge"
+    };
+
+    // Display the information
+    System.out.println("Resume of " + name);
+    System.out.println("Year of birth: " + bornYear);
+    System.out.println("Residence: " + residence);
+    System.out.println("Education:");
+    for (String edu : education) {
+        System.out.println("- " + edu);
+    }
+    System.out.println("Accumulation of knowledge and experience in years: " + experienceInYears);
+
+    // Formating all informaction
+    System.out.println("Technical skills:");
+    for (String skill : technicalSkills) {
+        System.out.println("- " + skill);
+    }
+    System.out.println("Tools: ");
+    for (String tool : tools) {
+        System.out.println("- " + tool);
+    }
+    System.out.println("Current goals: ");
+    for (String goal : futureGoals) {
+        System.out.println("- " + goal);
+    }
+}
+## {
